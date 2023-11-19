@@ -49,15 +49,15 @@ then
 	exit 1
 fi
 
-if [ $timer -lt 15 ] || [ $timer -gt 45 ]
+if [ $timer -lt 15 ] || [ $timer -gt 60 ]
 then
-	echo "Pour le confort du jeu, mettre un timer entre 15 et 45 secs."
+	echo "Pour le confort du jeu, mettre un timer entre 15 et 60 secs."
 	exit 1
 fi
 
 ############################### FIN DES PARAMS ############################################
 
-
+clear
 
 echo "We're playing with $nb_players players, have fun!"
 
@@ -101,29 +101,31 @@ shuf -n $nb_total conf/questions --output=$question_list
 
 ##### ATTRIBUTION DE 1 QUESTION PAR JOUEUR #####
 
-choix2=false
-
 
 
 for i in $(seq $nb_total)
 do
-	echo "Question pour : $(sed -n $i\p $player_list)"
+
+	echo "Question for $(sed -n $i\p $player_list)"
 	echo ""
 	sed -n $i\p $question_list
 	echo ""
 
 
-	read -p "Appuyez sur Entrée pour continuer (exit pour quitter) : " choix
+	read -p "Press any key to continue ('q' or 'exit' to quit) : " choix
 
-	if [[ $choix =~ ^(exit|Exit|EXIT)$ ]]
+	if [[ $choix =~ ^(exit|Exit|EXIT|q|quit|Q|QUIT|Quit)$ ]]
+
 	then
-		read -p "Voulez-vous vraiment quitter (Y/n) ? " choix2
-		if [[ $choix2 =~ ^(|Y|Yes|yes|Oui|oui|O|o)$ ]]
+		read -p "Are you sure you wanna quit? (Y/n) : " choix2
+		
+			if [[ $choix2 =~ ^(Y|O)$ ]]
 		then
-			echo "Fin de partie."
+			echo ""
 			exit 2
 		else
-			"Reprise de la partie avec la question suivante..."
+			echo "Resuming game, get ready for next question ..."
+			sleep 3
 			
 		fi
 	fi
@@ -131,19 +133,8 @@ do
 done
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+echo "No more questions to ask, the quizz is now over !"
+exit 0
 
 
 
