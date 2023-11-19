@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+#################################### PARAMS ###############################################
 
 for arg in $@
 do
@@ -38,9 +38,12 @@ then
 	exit 1
 fi
 
+nb_total=$(($nb_questions * $nb_players))
+
+
 nb_questions_conf=$(wc conf/questions -l|cut -d" " -f1)
 
-if [ $nb_questions_conf -lt $(($nb_questions * $nb_players)) ]
+if [ $nb_questions_conf -lt $nb_total ]
 then
 	echo "Il n'y a pas assez de questions disponibles dans conf/questions avec vos paramètres."
 	exit 1
@@ -52,7 +55,14 @@ then
 	exit 1
 fi
 
+############################### FIN DES PARAMS ############################################
+
+
+
 echo "We're playing with $nb_players players, have fun!"
+
+
+############################## CREATION DES FICHIERS TEMPORAIRES ##########################
 
 
 if [ -d tmp ]
@@ -63,17 +73,77 @@ fi
 mkdir tmp 2> /dev/null
 
 
-playerlist=tmp/new_list
+######### DETERMINATION ALEATOIRE DE L'ORDRE DE PARTICIPATION DES JOUEURS ##########
 
 
+player_list=tmp/randomplayers
 
-shuf conf/players --output=$playerlist
 
+shuf conf/players --output=$player_list     
 
 for i in $(seq $(($nb_questions - 1)))
 do
-	shuf conf/players >> $playerlist
+	shuf conf/players >> $player_list
 done
 
-cat $playerlist
+#cat $player_list
+
+
+######### EXTRACTION ALEATOIRE DU BON NOMBRE DE QUESTIONS ##########
+
+
+question_list=tmp/randomquestions
+
+
+shuf -n $nb_total conf/questions --output=$question_list
+
+
+
+##### ATTRIBUTION DE 1 QUESTION PAR JOUEUR #####
+
+choix2=false
+
+
+
+for i in $(seq $nb_total)
+do
+	echo "Question pour : $(sed -n $i\p $player_list)"
+	echo ""
+	sed -n $i\p $question_list
+	echo ""
+
+
+	read -p "Appuyez sur Entrée pour continuer (exit pour quitter) : " choix
+
+	if [[ $choix =~ ^(exit|Exit|EXIT)$ ]]
+	then
+		read -p "Voulez-vous vraiment quitter (Y/n) ? " choix2
+		if [[ $choix2 =~ ^(|Y|Yes|yes|Oui|oui|O|o)$ ]]
+		then
+			echo "Fin de partie."
+			exit 2
+		else
+			"Reprise de la partie avec la question suivante..."
+			
+		fi
+	fi
+	clear
+done
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
