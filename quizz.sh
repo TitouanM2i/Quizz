@@ -111,6 +111,7 @@ do
 	sed -n $i\p $question_list
 	echo ""
 
+	bash conf/countdown.sh --$timer
 
 	read -p "Press any key to continue ('q' or 'exit' to quit) : " choix
 
@@ -121,7 +122,8 @@ do
 		
 			if [[ $choix2 =~ ^(Y|O)$ ]]
 		then
-			echo ""
+			echo "End of quizz."
+			rm -r tmp
 			exit 2
 		else
 			echo "Resuming game, get ready for next question ..."
@@ -132,9 +134,8 @@ do
 	clear
 done
 
+rm -r tmp
 
 echo "No more questions to ask, the quizz is now over !"
 exit 0
-
-
 
