@@ -4,13 +4,13 @@
 
 for arg in $@
 do
-	if [[ $arg =~ ^-p=([0-9]+)$ ]]
+	if [[ $arg =~ ^-p=([1-9][0-9]*)$ ]]
 	then
 		nb_players=${BASH_REMATCH[1]}
 
 	fi
 
-	if [[ $arg =~ ^-q=([0-9])$ ]]
+	if [[ $arg =~ ^-q=([1-9][0-9]*)$ ]]
 	then
 		nb_questions=${BASH_REMATCH[1]}
 
@@ -24,9 +24,9 @@ do
 
 done
 
-if [ -z $timer ] || [ -z $nb_questions ] || [ -z $nb_players ]
+if [ -z $nb_questions ] || [ -z $nb_players ]
 then
-	echo "Vous devez spécifier tous les arguments, dans les bons formats, lisez le README"
+	echo "Vous devez préciser le nombre de joueurs ET le nombre de questions posées par joueur, lisez le README."
 	exit 1
 fi
 
@@ -49,9 +49,10 @@ then
 	exit 1
 fi
 
-if [ $timer -lt 15 ] || [ $timer -gt 60 ]
+
+if [ -n $timer ] && ([ $timer -lt 15 ] || [ $timer -gt 60 ])
 then
-	echo "Pour le confort du jeu, mettre un timer entre 15 et 60 secs."
+	echo "Pour le confort du jeu, mettez un timer entre 15 et 60 secs."
 	exit 1
 fi
 
@@ -60,7 +61,12 @@ fi
 clear
 
 echo "We're playing with $nb_players players, have fun!"
+echo ""
+cat conf/players
+echo ""
+read -p "Press any key to continue : " debut
 
+clear
 
 ############################## CREATION DES FICHIERS TEMPORAIRES ##########################
 
@@ -86,8 +92,6 @@ do
 	shuf conf/players >> $player_list
 done
 
-#cat $player_list
-
 
 ######### EXTRACTION ALEATOIRE DU BON NOMBRE DE QUESTIONS ##########
 
@@ -102,7 +106,6 @@ shuf -n $nb_total conf/questions --output=$question_list
 ##### ATTRIBUTION DE 1 QUESTION PAR JOUEUR #####
 
 
-
 for i in $(seq $nb_total)
 do
 
@@ -111,14 +114,19 @@ do
 	sed -n $i\p $question_list
 	echo ""
 
-	bash conf/countdown.sh --$timer
+		if ! [ -z $timer ]
+		then
+
+		bash conf/countdown.sh --$timer
+
+		fi
 
 	read -p "Press any key to continue ('q' or 'exit' to quit) : " choix
 
 	if [[ $choix =~ ^(exit|Exit|EXIT|q|quit|Q|QUIT|Quit)$ ]]
 
 	then
-		read -p "Are you sure you wanna quit? (Y/n) : " choix2
+		read -p "Are you sure you wanna quit? (Y/N) : " choix2
 		
 			if [[ $choix2 =~ ^(Y|O)$ ]]
 		then

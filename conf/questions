@@ -1,3 +1,21 @@
+Dans quel fichier je peux changer mon prompt de manière permanente ?
+Dans quel fichier se trouve la liste des utilisateurs du système ?
+Quels sont les différents champs dans le fichier contenant la liste des groupes ?
+Combien de champs y a t-il par user dans le fichier contenant la liste des users ?
+A quoi correspond le ' :x: ' dans le fichier contenant la liste des users ?
+Quelle est la commande qui permet de se connecter en tant que root ?
+Je veux créer l'utilisateur bob, sachant que bob préfère utiliser Python, comment faire ?
+Comment mettre à jour ses paquets (2 commandes) ?
+Je veux qu'une vache me dise "hello", comment faire ?
+Combien de groupes un user peut-il avoir ?
+Quelle commande pour ajouter r2d2 dans le groupe secondaire "droid" ?
+Je fais confiance à mon ami.e "Camille", je veux qu'il/elle ait les droits d'admin. Comment faire ?
+Anakin en a marre de se connecter en voyant "anakin". Il vous contacte pour que ce soit changé en "Dark Vador". Comment faire ?
+Sasuke étant devenu darksasuke, Naruto ne veut plus le voir dans le groupe "amis". Quelle commande taper ?
+Le Diable est venu en personne me demander de lui créer l'utilisateur "godsuxx" avec une ID de 666 ? Quelle commande taper ?
+En tant que bon admin, quelles sont les deux commandes "soeurs" concernant les droits sur les fichiers ?
+Si je vous dis 755 ou 740... A quoi cela vous fait-il penser ?
+Dans   "  -rwxr-x---   "  que signifie le premier tiret ?
 Quelle commande pour créer un répertoire ?
 Quelle commande pour créer un fichier ?
 Quelle commande pour se déplacer dans son home directory ?
@@ -12,6 +30,13 @@ Quelle commande pour afficher un message dans le terminal ?
 Quelle commande pour n'afficher que le 3eme champ dans un fichier CSV ?
 Quelle commande pour trier le contenu d'un fichier par ordre alphabétique ?
 Quelle commande pour afficher uniquement des lignes contenant un pattern bien précis ?
+Quel est le raccourci signifiant " dossier parent " ?
+Quel est le raccourci signifiant " dossier actuel " ?
+Quelle commande pour savoir dans quel directory on se trouve ?
+Il existe deux types de chemins, lesquels ? Explique nous la différence.
+Comment afficher les fichiers cachés dans un dossier ?
+Avec Linux " Tout est un fichier " , peux-tu citer un maximum de types de fichiers ?
+Quelle commande pour afficher une belle arborescence dans le terminal ?
 Quelle commande permet d'afficher tout ce qui est branché physiquement à la machine ?
 Où sont répertoriés tous les disques et périphériques ? (quel dossier)
 Concrètement, que fait la commande 'dd' ?
@@ -31,6 +56,26 @@ Quel est le format d'une adresse IPv4 ? et IPv6 ?
 Qu'est-ce qu'une adresse MAC ?
 Quel est le format d'une adresse MAC ?
 Quelle commande permet de tester rapidement si une machine est joignable ?
+Par quelle ligne doit absolument commencer un script ?
+Pour commenter une ligne dans un script, quel symbole dois-je mettre ? Et si je veux commenter toute une partie ?
+Qu'est-ce que '$@' dans un script ?
+A quoi sert ${BASH_REMATCH} ? (non ce n'est pas rejouer le match...)
+A quoi correspond la RegEx   [aeiouy]{1,3} ?
+Dans une RegEx, on a souvent besoin de préciser début et fin de ligne, quels sont les symboles correspondants ?
+Dans une RegEx, je veux matcher avec "le dernier mot d'une question" , comment faire ?
+Ecris une RegEx pour matcher avec une IP. (pas de chance)
+Je ne sais pas si tu te souviens, mais il y avait une histoire de mode non-glouton ... Tu peux nous rappeler ce que c'est ?
+Dans un script bash, je veux faire une opération numérique, comment l'écrire ?
+Comment récupérer une variable que l'utilisateur du script doit taper ? (prompt)
+Je veux comparer deux valeurs numériques dans un script. Je peux utiliser  " > = < != "  ?
+Comment générer un nombre aléatoire entre 1 et 100 ?
+Qu'est-ce que l'IFS ? (Ce n'est pas l'Impot Fûr la Sortune...)
+Comment récuperer le code de sortie d'une commande ? (utile pour vérifier si une commande fonctionne)
+Pour pouvoir éxécuter mon script depuis n'importe où sur mon système, quelle variable d'environnement dois-je modifier ?
+Très utile dans un script, comment faire une boucle " pour i allant de 1 à 10 " ?
+Cite au moins une chose que Loup n'aime pas dans un script. Fais-toi plaisir.
+Sur nginx, comment activer un site déjà existant ? Il y a une alternative avec Apache, laquelle ?
+Quelle extension ne pas oublier de préciser lorsque je nomme mon fichier de configuration d'un serveur avec Apache ?
 Dans VIM, comment insérer du texte ?
 Dans VIM, quelle est la méthode la plus rapide pour commenter rapidement tout un bloc ?
 Dans VIM, comment quitter sans sauvegarder ?

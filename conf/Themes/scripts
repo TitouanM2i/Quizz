@@ -1,0 +1,18 @@
+Par quelle ligne doit absolument commencer un script ?
+Pour commenter une ligne dans un script, quel symbole dois-je mettre ? Et si je veux commenter toute une partie ?
+Qu'est-ce que '$@' dans un script ?
+A quoi sert ${BASH_REMATCH} ? (non ce n'est pas rejouer le match...)
+A quoi correspond la RegEx   [aeiouy]{1,3} ?
+Dans une RegEx, on a souvent besoin de préciser début et fin de ligne, quels sont les symboles correspondants ?
+Dans une RegEx, je veux matcher avec "le dernier mot d'une question" , comment faire ?
+Ecris une RegEx pour matcher avec une IP. (pas de chance)
+Je ne sais pas si tu te souviens, mais il y avait une histoire de mode non-glouton ... Tu peux nous rappeler ce que c'est ?
+Dans un script bash, je veux faire une opération numérique, comment l'écrire ?
+Comment récupérer une variable que l'utilisateur du script doit taper ? (prompt)
+Je veux comparer deux valeurs numériques dans un script. Je peux utiliser  " > = < != "  ?
+Comment générer un nombre aléatoire entre 1 et 100 ?
+Qu'est-ce que l'IFS ? (Ce n'est pas l'Impot Fûr la Sortune...)
+Comment récuperer le code de sortie d'une commande ? (utile pour vérifier si une commande fonctionne)
+Pour pouvoir éxécuter mon script depuis n'importe où sur mon système, quelle variable d'environnement dois-je modifier ?
+Très utile dans un script, comment faire une boucle " pour i allant de 1 à 10 " ?
+Cite au moins une chose que Loup n'aime pas dans un script. Fais-toi plaisir.
