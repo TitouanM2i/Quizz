@@ -1,0 +1,10 @@
+Quelle commande permet d'afficher tout ce qui est branché physiquement à la machine ?
+Où sont répertoriés tous les disques et périphériques ? (quel dossier)
+Concrètement, que fait la commande 'dd' ?
+Avec quelle commande peut-on nettoyer un disque entièrement ?
+Je veux nettoyer UNIQUEMENT ma table de partitions, comment faire ?
+A quoi sert cfdisk ?
+Avant de monter une partition, je dois m'assurer que ... ?
+Quelle est la trinité des étapes de création d'une partition avec LVM ?
+Comment augmenter la taille d'une partition pour qu'elle prenne tout l'espace disponible ?
+Quelle est la commande pour chiffrer une partition ?
