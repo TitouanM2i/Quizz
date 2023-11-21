@@ -37,6 +37,11 @@ Il existe deux types de chemins, lesquels ? Explique nous la différence.
 Comment afficher les fichiers cachés dans un dossier ?
 Avec Linux " Tout est un fichier " , peux-tu citer un maximum de types de fichiers ?
 Quelle commande pour afficher une belle arborescence dans le terminal ?
+Comment n'afficher que la 7eme ligne d'un fichier ? (en 1 ou 2 commandes)
+Au fait, c'est quoi " / " ?
+A quoi sert " | " ?
+Comment ne pas afficher la sortie d'erreur d'une commande dans le terminal ?
+Je veux écrire "MERCI A TOUS" à la fin de mon fichier sans l'ouvrir, comment faire ?
 Quelle commande permet d'afficher tout ce qui est branché physiquement à la machine ?
 Où sont répertoriés tous les disques et périphériques ? (quel dossier)
 Concrètement, que fait la commande 'dd' ?
@@ -74,6 +79,7 @@ Comment récuperer le code de sortie d'une commande ? (utile pour vérifier si u
 Pour pouvoir éxécuter mon script depuis n'importe où sur mon système, quelle variable d'environnement dois-je modifier ?
 Très utile dans un script, comment faire une boucle " pour i allant de 1 à 10 " ?
 Cite au moins une chose que Loup n'aime pas dans un script. Fais-toi plaisir.
+Dans un script, comment envoyer une chaîne de commandes à effectuer dans une autre commande ? (vu dans le script sentinelle)
 Sur nginx, comment activer un site déjà existant ? Il y a une alternative avec Apache, laquelle ?
 Quelle extension ne pas oublier de préciser lorsque je nomme mon fichier de configuration d'un serveur avec Apache ?
 Dans VIM, comment insérer du texte ?
@@ -84,3 +90,6 @@ Dans VIM, comment supprimer une ligne rapidement ?
 Dans VIM, comment se placer en fin de ligne directement ?
 Dans VIM, comment annuler une modification ? Comment y revenir ?
 J'ai oublié de lancer VIM en sudo, comment je peux quand même enregistrer mes modifications sans quitter et tout refaire ?
+Comment chercher un pattern dans mon fichier vim ?
+Dans un fichier que j'ai ouvert avec VIM, il y a 250 fois le mot "Yoda". Comment remplacer "Yoda" par "Luke" ?
+J'ai créé un index.html, mais mon affichage n'est pas très beau... Comment faire pour afficher mon contenu sous forme d'une jolie liste ?

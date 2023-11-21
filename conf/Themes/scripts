@@ -16,3 +16,4 @@ Comment récuperer le code de sortie d'une commande ? (utile pour vérifier si u
 Pour pouvoir éxécuter mon script depuis n'importe où sur mon système, quelle variable d'environnement dois-je modifier ?
 Très utile dans un script, comment faire une boucle " pour i allant de 1 à 10 " ?
 Cite au moins une chose que Loup n'aime pas dans un script. Fais-toi plaisir.
+Dans un script, comment envoyer une chaîne de commandes à effectuer dans une autre commande ? (vu dans le script sentinelle)

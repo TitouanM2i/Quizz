@@ -6,3 +6,6 @@ Dans VIM, comment supprimer une ligne rapidement ?
 Dans VIM, comment se placer en fin de ligne directement ?
 Dans VIM, comment annuler une modification ? Comment y revenir ?
 J'ai oublié de lancer VIM en sudo, comment je peux quand même enregistrer mes modifications sans quitter et tout refaire ?
+Comment chercher un pattern dans mon fichier vim ?
+Dans un fichier que j'ai ouvert avec VIM, il y a 250 fois le mot "Yoda". Comment remplacer "Yoda" par "Luke" ?
+J'ai créé un index.html, mais mon affichage n'est pas très beau... Comment faire pour afficher mon contenu sous forme d'une jolie liste ?

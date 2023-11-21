@@ -14,3 +14,4 @@ do
 done
 
 echo "Questions list succesfully reloaded."
+echo "TOTAL : $(wc -l questions)"
