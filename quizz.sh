@@ -64,6 +64,8 @@ echo "We're playing with $nb_players players, have fun!"
 echo ""
 cat conf/players
 echo ""
+echo "You can exit this quizz by typing ' q ' or ' exit ' instead of an answer."
+echo ""
 read -p "Press any key to continue : " debut
 
 clear
@@ -121,14 +123,14 @@ do
 
 		fi
 
-	read -p "Press any key to continue ('q' or 'exit' to quit) : " choix
+	read -p "Your answer ? : " answer
 
-	if [[ $choix =~ ^(exit|Exit|EXIT|q|quit|Q|QUIT|Quit)$ ]]
+	if [[ $answer =~ ^(exit|Exit|EXIT|q|quit|Q|QUIT|Quit)$ ]]
 
 	then
-		read -p "Are you sure you wanna quit? (Y/N) : " choix2
+		read -p "Are you sure you wanna quit? (Y/N) : " choix
 		
-			if [[ $choix2 =~ ^(Y|O)$ ]]
+			if [[ $choix =~ ^(Y|O)$ ]]
 		then
 			echo "End of quizz."
 			rm -r tmp
