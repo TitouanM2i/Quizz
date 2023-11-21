@@ -24,3 +24,7 @@ Au fait, c'est quoi " / " ?
 A quoi sert " | " ?
 Comment ne pas afficher la sortie d'erreur d'une commande dans le terminal ?
 Je veux écrire "MERCI A TOUS" à la fin de mon fichier sans l'ouvrir, comment faire ?
+Quelle commande permet d'avoir des infos sur un utilisateur (son uid, son groupe principal et tous ses groupes secondaires) ?
+Comment lire le contenu d'un fichier interactivement ? (sans utiliser d'éditeur de texte)
+Quelle touche magique permet de taper à la vitesse de l'éclair ?
+J'ai un fichier avec des noms, et un autre avec les numéros de téléphone correspondants, comment regrouper ces infos dans un même fichier ?

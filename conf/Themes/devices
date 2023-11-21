@@ -8,3 +8,7 @@ Avant de monter une partition, je dois m'assurer que ... ?
 Quelle est la trinité des étapes de création d'une partition avec LVM ?
 Comment augmenter la taille d'une partition pour qu'elle prenne tout l'espace disponible ?
 Quelle est la commande pour chiffrer une partition ?
+Quelle commande permet de visualiser la taille réelle de mon home directory ? (l'espace disque utilisé)
+Comment créer une archive compressée d'un fichier ? Par convention, comment la nomme-t-on ?
+Quelle commande permet d'afficher tout ce qui est monté sur ma machine, avec l'espace utilisé et disponible ?
+Comment rendre toutes les partitions d'un groupe inactives ? (très pratique quand on veut les supprimer)

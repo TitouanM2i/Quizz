@@ -14,8 +14,21 @@ Anakin en a marre de se connecter en voyant "anakin". Il vous contacte pour que 
 Sasuke étant devenu darksasuke, Naruto ne veut plus le voir dans le groupe "amis". Quelle commande taper ?
 Le Diable est venu en personne me demander de lui créer l'utilisateur "godsuxx" avec une ID de 666 ? Quelle commande taper ?
 En tant que bon admin, quelles sont les deux commandes "soeurs" concernant les droits sur les fichiers ?
-Si je vous dis 755 ou 740... A quoi cela vous fait-il penser ?
+Si je vous dis 755 ou 740... A quoi cela vous fait-il penser ? Peux-tu donner le nom exact ?
 Dans   "  -rwxr-x---   "  que signifie le premier tiret ?
+Quelle commande est l'équivalent du "Gestionnaire des tâches de Windows" ?
+Comment afficher tous les processus lancés par un utilisateur ?
+Qu'est-ce qu'un TTY ? Comment en changer ?
+Qu'est-ce qu'un job ?
+Comment lancer un processus en arrière-plan ? Comment le remettre au premier plan ?
+Quelle commande permet d'envoyer un signal à un processus ?
+Quelle commande permet de forcer l'arrêt d'un processus en cours ?
+Par quoi sont gérés les services sur nos VM ?
+Comment voir la liste de tous les services ?
+Comment faire en sorte qu'un service se lance au démarrage de mon OS ?
+Quelle commande permet de voir tous les logs de tout ce qui s'est passé depuis le premier boot de l'OS sur une machine ?
+J'ai un problème avec un service en particulier, quelle commande permet d'avoir plus d'informations ?
+Que signifie le terme "hasher" ? Quel est l'intérêt ? (si tu bloques, demande à Antton il expliquera sûrement ça très bien)
 Quelle commande pour créer un répertoire ?
 Quelle commande pour créer un fichier ?
 Quelle commande pour se déplacer dans son home directory ?
@@ -42,6 +55,10 @@ Au fait, c'est quoi " / " ?
 A quoi sert " | " ?
 Comment ne pas afficher la sortie d'erreur d'une commande dans le terminal ?
 Je veux écrire "MERCI A TOUS" à la fin de mon fichier sans l'ouvrir, comment faire ?
+Quelle commande permet d'avoir des infos sur un utilisateur (son uid, son groupe principal et tous ses groupes secondaires) ?
+Comment lire le contenu d'un fichier interactivement ? (sans utiliser d'éditeur de texte)
+Quelle touche magique permet de taper à la vitesse de l'éclair ?
+J'ai un fichier avec des noms, et un autre avec les numéros de téléphone correspondants, comment regrouper ces infos dans un même fichier ?
 Quelle commande permet d'afficher tout ce qui est branché physiquement à la machine ?
 Où sont répertoriés tous les disques et périphériques ? (quel dossier)
 Concrètement, que fait la commande 'dd' ?
@@ -52,6 +69,10 @@ Avant de monter une partition, je dois m'assurer que ... ?
 Quelle est la trinité des étapes de création d'une partition avec LVM ?
 Comment augmenter la taille d'une partition pour qu'elle prenne tout l'espace disponible ?
 Quelle est la commande pour chiffrer une partition ?
+Quelle commande permet de visualiser la taille réelle de mon home directory ? (l'espace disque utilisé)
+Comment créer une archive compressée d'un fichier ? Par convention, comment la nomme-t-on ?
+Quelle commande permet d'afficher tout ce qui est monté sur ma machine, avec l'espace utilisé et disponible ?
+Comment rendre toutes les partitions d'un groupe inactives ? (très pratique quand on veut les supprimer)
 Quelle est l'ip associée à "localhost" ?
 Dans quel fichier peut-on associer des noms de domaines à des ip ?
 Quelle commande permet d'afficher toutes nos interfaces de connexion ?
@@ -61,6 +82,12 @@ Quel est le format d'une adresse IPv4 ? et IPv6 ?
 Qu'est-ce qu'une adresse MAC ?
 Quel est le format d'une adresse MAC ?
 Quelle commande permet de tester rapidement si une machine est joignable ?
+Quelle manip' a-t-on effectué pour permettre à toutes nos VM (de m2i) d'être sur le même réseau ?
+Quelle est la différence entre une IP locale et une IP publique ? Comment sont-elles attribuées ?
+Quel logiciel est utilisé pour voir tout ce qui se passe dans les différentes couches du modele OSI ? (utilisé par les H@CK3RZZ)
+Quelle commande permet de scanner tous les ports d'une machine, de savoir ceux qui sont ouverts, et ce qu'il s'y passe ?
+Quelle commande permet d'afficher le trajet des paquets vers une IP ?
+Dans la pratique, que permet une redirection de port ? Quelle est la règle utilisée ?
 Par quelle ligne doit absolument commencer un script ?
 Pour commenter une ligne dans un script, quel symbole dois-je mettre ? Et si je veux commenter toute une partie ?
 Qu'est-ce que '$@' dans un script ?
@@ -80,8 +107,37 @@ Pour pouvoir éxécuter mon script depuis n'importe où sur mon système, quelle
 Très utile dans un script, comment faire une boucle " pour i allant de 1 à 10 " ?
 Cite au moins une chose que Loup n'aime pas dans un script. Fais-toi plaisir.
 Dans un script, comment envoyer une chaîne de commandes à effectuer dans une autre commande ? (vu dans le script sentinelle)
+Dans un script, comment traduire (en bash) " Si 'mon nombre' est compris entre 10 et 23 " ?
+Comment forcer l'utilisation d'un script en tant que sudoer ? (obligé de taper sudo bash script.sh pour exécuter le script)
+J'ai beaucoup de variables à déclarer, et je ne veux pas que cela pollue mon script, comment faire pour rendre le tout plus propre ?
 Sur nginx, comment activer un site déjà existant ? Il y a une alternative avec Apache, laquelle ?
 Quelle extension ne pas oublier de préciser lorsque je nomme mon fichier de configuration d'un serveur avec Apache ?
+A quoi sert docker ?
+Quelle est la différence entre une connexion SFTP et une connexion FTPS ?
+Quel protocole de sécurisation est utilisé dans une connexion HTTPS ?
+Si je veux configurer un serveur de type "https", de quoi ai-je absolument besoin ?
+Quelle est la commande pour générer un certificat et une clé de chiffrement associée ?
+Par défaut, quel port est utilisé par un serveur nginx/apache ?
+Par défaut, quel port est utilisé par un serveur nginx/apache sécurisé ?
+Par défaut, quel port est utilisé par un serveur FTP ?
+Par défaut, quel port est utilisé lors de la création d'un serveur Minecraft ? (mais si, vous savez, celui du voisin de Loup)
+Par défaut, quel port est utilisé par un serveur Tomcat ?
+Partage ton écran, et dessine nous ton meilleur schéma représentant ta VM dans le réseau m2i ? (avec des superbes rectangles)
+Quel est l'intérêt des volumes avec Docker ?
+Je veux proposer une nouvelle version de mon dépôt Git, quelles sont les 3 commandes à faire ?
+A quoi sert GitHub ?
+Décris nous la syntaxe de base d'un fichier de conf serveur (basique, simple) avec nginx.
+Décris nous la syntaxe de base d'un fichier de conf serveur (basique, simple) avec apache.
+Quel protocole est utilisé pour remplacer HTTP dans un serveur Tomcat ?
+Décris nous la syntaxe de base d'un fichier de conf serveur SECURISE avec nginx.
+Décris nous la syntaxe de base d'un fichier de conf serveur SECURISE avec apache.
+Je veux répartir les clients de mon site https, sur mes serveurs de back1 et back2, comment faire ?
+Je veux forcer la connexion protégée (https) lorsqu'un utilisateur se connecte à mon site, comment faire ?
+Quel logiciel on utilise pour envoyer des fichiers sur un serveur FTP ?
+Dans les directives des fichiers de conf serveur, que permet nginx que ne permet pas Apache ? (et c'est bien dommage...)
+Tu préfères apache ou nginx ? Explique nous pourquoi ? (parce que c'est plus simple n'est pas toléré !)
+Après une modification dans un fichier de conf serveur, que faut-il faire pour qu'elle soit prise en compte ? (commande)
+Quelle est la commande pour obtenir une paire de clés utiles pour une connexion SSH ? Où sont-elles créées par défaut ?
 Dans VIM, comment insérer du texte ?
 Dans VIM, quelle est la méthode la plus rapide pour commenter rapidement tout un bloc ?
 Dans VIM, comment quitter sans sauvegarder ?

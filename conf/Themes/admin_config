@@ -14,5 +14,18 @@ Anakin en a marre de se connecter en voyant "anakin". Il vous contacte pour que 
 Sasuke étant devenu darksasuke, Naruto ne veut plus le voir dans le groupe "amis". Quelle commande taper ?
 Le Diable est venu en personne me demander de lui créer l'utilisateur "godsuxx" avec une ID de 666 ? Quelle commande taper ?
 En tant que bon admin, quelles sont les deux commandes "soeurs" concernant les droits sur les fichiers ?
-Si je vous dis 755 ou 740... A quoi cela vous fait-il penser ?
+Si je vous dis 755 ou 740... A quoi cela vous fait-il penser ? Peux-tu donner le nom exact ?
 Dans   "  -rwxr-x---   "  que signifie le premier tiret ?
+Quelle commande est l'équivalent du "Gestionnaire des tâches de Windows" ?
+Comment afficher tous les processus lancés par un utilisateur ?
+Qu'est-ce qu'un TTY ? Comment en changer ?
+Qu'est-ce qu'un job ?
+Comment lancer un processus en arrière-plan ? Comment le remettre au premier plan ?
+Quelle commande permet d'envoyer un signal à un processus ?
+Quelle commande permet de forcer l'arrêt d'un processus en cours ?
+Par quoi sont gérés les services sur nos VM ?
+Comment voir la liste de tous les services ?
+Comment faire en sorte qu'un service se lance au démarrage de mon OS ?
+Quelle commande permet de voir tous les logs de tout ce qui s'est passé depuis le premier boot de l'OS sur une machine ?
+J'ai un problème avec un service en particulier, quelle commande permet d'avoir plus d'informations ?
+Que signifie le terme "hasher" ? Quel est l'intérêt ? (si tu bloques, demande à Antton il expliquera sûrement ça très bien)

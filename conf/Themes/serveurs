@@ -1,2 +1,28 @@
 Sur nginx, comment activer un site déjà existant ? Il y a une alternative avec Apache, laquelle ?
 Quelle extension ne pas oublier de préciser lorsque je nomme mon fichier de configuration d'un serveur avec Apache ?
+A quoi sert docker ?
+Quelle est la différence entre une connexion SFTP et une connexion FTPS ?
+Quel protocole de sécurisation est utilisé dans une connexion HTTPS ?
+Si je veux configurer un serveur de type "https", de quoi ai-je absolument besoin ?
+Quelle est la commande pour générer un certificat et une clé de chiffrement associée ?
+Par défaut, quel port est utilisé par un serveur nginx/apache ?
+Par défaut, quel port est utilisé par un serveur nginx/apache sécurisé ?
+Par défaut, quel port est utilisé par un serveur FTP ?
+Par défaut, quel port est utilisé lors de la création d'un serveur Minecraft ? (mais si, vous savez, celui du voisin de Loup)
+Par défaut, quel port est utilisé par un serveur Tomcat ?
+Partage ton écran, et dessine nous ton meilleur schéma représentant ta VM dans le réseau m2i ? (avec des superbes rectangles)
+Quel est l'intérêt des volumes avec Docker ?
+Je veux proposer une nouvelle version de mon dépôt Git, quelles sont les 3 commandes à faire ?
+A quoi sert GitHub ?
+Décris nous la syntaxe de base d'un fichier de conf serveur (basique, simple) avec nginx.
+Décris nous la syntaxe de base d'un fichier de conf serveur (basique, simple) avec apache.
+Quel protocole est utilisé pour remplacer HTTP dans un serveur Tomcat ?
+Décris nous la syntaxe de base d'un fichier de conf serveur SECURISE avec nginx.
+Décris nous la syntaxe de base d'un fichier de conf serveur SECURISE avec apache.
+Je veux répartir les clients de mon site https, sur mes serveurs de back1 et back2, comment faire ?
+Je veux forcer la connexion protégée (https) lorsqu'un utilisateur se connecte à mon site, comment faire ?
+Quel logiciel on utilise pour envoyer des fichiers sur un serveur FTP ?
+Dans les directives des fichiers de conf serveur, que permet nginx que ne permet pas Apache ? (et c'est bien dommage...)
+Tu préfères apache ou nginx ? Explique nous pourquoi ? (parce que c'est plus simple n'est pas toléré !)
+Après une modification dans un fichier de conf serveur, que faut-il faire pour qu'elle soit prise en compte ? (commande)
+Quelle est la commande pour obtenir une paire de clés utiles pour une connexion SSH ? Où sont-elles créées par défaut ?

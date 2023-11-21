@@ -17,3 +17,6 @@ Pour pouvoir éxécuter mon script depuis n'importe où sur mon système, quelle
 Très utile dans un script, comment faire une boucle " pour i allant de 1 à 10 " ?
 Cite au moins une chose que Loup n'aime pas dans un script. Fais-toi plaisir.
 Dans un script, comment envoyer une chaîne de commandes à effectuer dans une autre commande ? (vu dans le script sentinelle)
+Dans un script, comment traduire (en bash) " Si 'mon nombre' est compris entre 10 et 23 " ?
+Comment forcer l'utilisation d'un script en tant que sudoer ? (obligé de taper sudo bash script.sh pour exécuter le script)
+J'ai beaucoup de variables à déclarer, et je ne veux pas que cela pollue mon script, comment faire pour rendre le tout plus propre ?

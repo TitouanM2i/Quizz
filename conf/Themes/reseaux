@@ -7,3 +7,9 @@ Quel est le format d'une adresse IPv4 ? et IPv6 ?
 Qu'est-ce qu'une adresse MAC ?
 Quel est le format d'une adresse MAC ?
 Quelle commande permet de tester rapidement si une machine est joignable ?
+Quelle manip' a-t-on effectué pour permettre à toutes nos VM (de m2i) d'être sur le même réseau ?
+Quelle est la différence entre une IP locale et une IP publique ? Comment sont-elles attribuées ?
+Quel logiciel est utilisé pour voir tout ce qui se passe dans les différentes couches du modele OSI ? (utilisé par les H@CK3RZZ)
+Quelle commande permet de scanner tous les ports d'une machine, de savoir ceux qui sont ouverts, et ce qu'il s'y passe ?
+Quelle commande permet d'afficher le trajet des paquets vers une IP ?
+Dans la pratique, que permet une redirection de port ? Quelle est la règle utilisée ?
