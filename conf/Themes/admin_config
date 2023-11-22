@@ -29,3 +29,4 @@ Comment faire en sorte qu'un service se lance au démarrage de mon OS ?
 Quelle commande permet de voir tous les logs de tout ce qui s'est passé depuis le premier boot de l'OS sur une machine ?
 J'ai un problème avec un service en particulier, quelle commande permet d'avoir plus d'informations ?
 Que signifie le terme "hasher" ? Quel est l'intérêt ? (si tu bloques, demande à Antton il expliquera sûrement ça très bien)
+Chaque processus a une ID. Chaque processus a un parent, sauf UN. Quel est ce fameux processus," père " de tous les autres ?

@@ -13,3 +13,7 @@ Quel logiciel est utilisé pour voir tout ce qui se passe dans les différentes 
 Quelle commande permet de scanner tous les ports d'une machine, de savoir ceux qui sont ouverts, et ce qu'il s'y passe ?
 Quelle commande permet d'afficher le trajet des paquets vers une IP ?
 Dans la pratique, que permet une redirection de port ? Quelle est la règle utilisée ?
+Propose nous ton meilleur schéma d'une connexion client-serveur via un serveur Proxy.
+Si j'applique un masque de 16 à un réseau, quelle sera son adresse ? (admettons que je veuille avoir des IP de type 1.2.3.4 au sein de mon réseau)
+A quoi sert une gateway dans un réseau ?
+Lors d'une connexion, il y a toujours un client et un serveur, mais lequel fait quoi ?

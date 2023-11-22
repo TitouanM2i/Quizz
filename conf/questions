@@ -29,6 +29,7 @@ Comment faire en sorte qu'un service se lance au démarrage de mon OS ?
 Quelle commande permet de voir tous les logs de tout ce qui s'est passé depuis le premier boot de l'OS sur une machine ?
 J'ai un problème avec un service en particulier, quelle commande permet d'avoir plus d'informations ?
 Que signifie le terme "hasher" ? Quel est l'intérêt ? (si tu bloques, demande à Antton il expliquera sûrement ça très bien)
+Chaque processus a une ID. Chaque processus a un parent, sauf UN. Quel est ce fameux processus," père " de tous les autres ?
 Quelle commande pour créer un répertoire ?
 Quelle commande pour créer un fichier ?
 Quelle commande pour se déplacer dans son home directory ?
@@ -88,6 +89,10 @@ Quel logiciel est utilisé pour voir tout ce qui se passe dans les différentes 
 Quelle commande permet de scanner tous les ports d'une machine, de savoir ceux qui sont ouverts, et ce qu'il s'y passe ?
 Quelle commande permet d'afficher le trajet des paquets vers une IP ?
 Dans la pratique, que permet une redirection de port ? Quelle est la règle utilisée ?
+Propose nous ton meilleur schéma d'une connexion client-serveur via un serveur Proxy.
+Si j'applique un masque de 16 à un réseau, quelle sera son adresse ? (admettons que je veuille avoir des IP de type 1.2.3.4 au sein de mon réseau)
+A quoi sert une gateway dans un réseau ?
+Lors d'une connexion, il y a toujours un client et un serveur, mais lequel fait quoi ?
 Par quelle ligne doit absolument commencer un script ?
 Pour commenter une ligne dans un script, quel symbole dois-je mettre ? Et si je veux commenter toute une partie ?
 Qu'est-ce que '$@' dans un script ?
